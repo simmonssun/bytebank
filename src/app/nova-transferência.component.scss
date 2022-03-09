@@ -1,19 +1,28 @@
-
 .formulario {
   background-color: white;
   padding: 16px;
-  border-radius: 4px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(14, 13, 13, 0.1);
   &__titulo {
     text-transform: capitalize;
     color: var(--primary);
   }
+  width: 40%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 5%;
+
+
+}
+.container{
+  display: flex;
+  align-items: center;
 }
 
 .form-field {
   width: 100%;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 12px;
+  margin-bottom: 16px;
   display: flex;
   flex-direction: column;
   color: var(--primary);
@@ -25,10 +34,10 @@
   }
 
   &__input {
-    padding: 8px;
-    border-radius: 4px;
+    padding: 12px;
+    border-radius: 6px;
     color: inherit;
-    border: 2px solid;
+    border: 4px solid;
     outline: none;
   }
 }
@@ -38,20 +47,20 @@
 }
 
 .botao {
-  background-color: var(--primary);
-  color: white;
+  background-color: green;
+  color: rgb(252, 250, 250);
   display: block;
   flex: 1;
   border: none;
-  border-radius: 4px;
-  font-size: 16px;
+  border-radius: 8px;
+  font-size: 17px;
   padding: 0.5em;
   cursor: pointer;
   transition: opacity 0.2s;
 
   &--cancelar {
-    background-color: var(--secondary);
-    margin-left: 20px;
+    background-color: green;
+    margin-left: 15px;
   }
 
   &:hover {
